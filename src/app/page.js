@@ -7,26 +7,29 @@ const features = [
   {
     id: 1,
     icon: "✅",
-    title: "Stuck in Traffic? Not Anymore!",
+    title: "YAANX - COMING SOON!",
     description:
-      "Introducing Yaan Moves, your ultimate ride-hailing solution! Book a taxi or a zippy bike and breeze through your day. We offer fast, affordable, and reliable transport at your fingertips.🫡",
+      "Your Premium Travel Experience is About to Begin. The future of luxury travel is here! YAANX is not just another cab service—it's a revolution in premium, safe, and seamless mobility. Designed for those who demand more from their journeys, YAANX blends technology, comfort, and convenience to deliver a ride like never before.🫡",
   },
   {
     id: 2,
     icon: "✅",
-    title: "Download the Yaan Moves app and experience:",
-    description: `<strong >Lightning-Fast Booking:</strong> Rides are seconds away!<br>
-    <strong >Pocket-Friendly Prices:</strong> Save big on every trip.<br>
-    <strong >Safety First:</strong> Verified drivers and secure payments guaranteed.
+    title: "What Makes YAANX Different?",
+    description: `<strong>🚘 Handpicked Premium Fleet</strong> - Travel in high-end, well-maintained luxury vehicles.<br>
+    <strong>👨‍✈️ Top-Tier Saarthis (Drivers)</strong> - Professionally trained, background-verified, and customer-focused.<br>
+    <strong>💰 Smart Pricing & Bidding System</strong> - Pay fair fares with real-time dynamic pricing.<br>
+    <strong>📍 Seamless Tech Experience</strong> - AI-powered route optimization, real-time tracking, and effortless booking.<br>
+    <strong>🧼 Automated Cleanliness Checks</strong> - Every vehicle is inspected to maintain hygiene and comfort.<br>
+    <strong>🛡 Uncompromised Safety</strong> - Live ride tracking, emergency assistance, and driver rating systems.
     🤓`,
   },
   {
     id: 3,
     icon: "✅",
-    title: "Ready to ditch the delays?",
+    title: "Experience the Future of Travel",
     description:
-      "Download Yaan Moves now and get 25% off your first ride with code YAANLAUNCH. Available on the App Store and Google Play! #YaanMoves #RideSmart #CityLife 🫡",
-  },
+ "🚖 <strong>YAANX</strong> is not just a ride, it's an upgrade. Whether it's your daily commute, airport transfer, or an important business meeting, we make sure you reach in style and comfort. <br> Be Among the First to Ride! 📲 Sign up now for early access and exclusive launch offers! 🚖 <br> Join as a Sarthi (Driver) - Earn more with transparent pricing, fair commissions, and top-tier customer demand. <br> The Wait is Almost Over! <strong>YAANX</strong> - The Future of Mobility, Arriving Soon. <br> Stay tuned. Something extraordinary is coming your way! 🫡"
+ },
 ];
 
 const useSatte = (initialState) => {
@@ -169,7 +172,7 @@ export default function LandingPage() {
           <div className=" md:border-r pb-6 pt-[4rem]">
             <div className="max-w-[450px] mx-auto">
               <h2 className="text-3xl mb-2 font-bold">
-                Conquer the City with Yaan Moves!
+                YAANX - COMING SOON!
               </h2>
               {features.map((item) => (
                 <div key={item.id} className="space-y-4 mb-6">
