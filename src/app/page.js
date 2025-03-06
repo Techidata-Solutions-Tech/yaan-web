@@ -7,9 +7,9 @@ const features = [
   {
     id: 1,
     icon: "✅",
-    title: "YAANX - COMING SOON!",
+    title: "Your Premium Travel Experience is About to Begin",
     description:
-      "Your Premium Travel Experience is About to Begin. The future of luxury travel is here! YAANX is not just another cab service—it's a revolution in premium, safe, and seamless mobility. Designed for those who demand more from their journeys, YAANX blends technology, comfort, and convenience to deliver a ride like never before.🫡",
+      "The future of luxury travel is here! YAANX is not just another cab service—it's a revolution in premium, safe, and seamless mobility. Designed for those who demand more from their journeys, YAANX blends technology, comfort, and convenience to deliver a ride like never before.🫡",
   },
   {
     id: 2,
