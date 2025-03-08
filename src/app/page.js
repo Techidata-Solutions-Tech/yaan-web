@@ -135,7 +135,7 @@ export default function LandingPage() {
           darkMode ? "bg-gray-900" : "bg-white"
         }`}
       >
-        <h1 className="text-lg font-bold text-center flex-1 ml-15">YAAN</h1>
+        <h1 className="text-lg font-bold text-center flex-1 ml-15 primary" >YAAN X</h1>
         <button
           onClick={toggleDarkMode}
           className={`relative inline-flex items-center h-8 w-16 rounded-full cursor-pointer transition-all ${
@@ -168,11 +168,11 @@ export default function LandingPage() {
       </header>
 
       <div className="border-b">
-        <div className="grid md:grid-cols-2 px-8 max-w-7xl mx-auto">
-          <div className=" md:border-r pb-6 pt-[4rem]">
+        <div className="grid md:grid-cols-2 px-4 sm:px-8 max-w-7xl mx-auto">
+          <div className=" md:border-r pb-6 pt-[2rem] sm:pt-[4rem]">
             <div className="max-w-[450px] mx-auto">
-              <h2 className="text-3xl mb-2 font-bold">
-                YAANX - COMING SOON!
+              <h2 className="text-2xl sm:text-3xl mb-2 font-bold">
+                <span className="primary">YAAN X</span> - COMING SOON!
               </h2>
               {features.map((item) => (
                 <div key={item.id} className="space-y-4 mb-6">
@@ -184,7 +184,7 @@ export default function LandingPage() {
                     <h3 className="font-bold text-lg">{item.title}</h3>
                   </div>
                   <p
-                    className="text-gray-500"
+                    className="text-gray-500 content"
                     dangerouslySetInnerHTML={{ __html: item.description }}
                   ></p>
                 </div>
